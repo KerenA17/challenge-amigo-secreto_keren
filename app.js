@@ -1,26 +1,19 @@
 // El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. Aquí deberás desarrollar la lógica para resolver el problema.
+let listaNombres=[]
 
 function agregarAmigo(){
-    let listaNombres=[]
-    let nombre = document.getElementById('nombreAmigo').value;
-    console.log(nombre)
-    return;
+    let nombre = document.getElementById('nombreAmigo').value.trim();
+    
+        if(nombre === "" || !isNaN(nombre)){
+            alert("Favor de escribir un nombre");
+            return;
+        }
+
+    listaNombres.push(nombre);
+    console.log(listaNombres);
+
 
 }
-
-agregarAmigo();
-console.log(listaNombres);
-console.log(agregarAmigo);
-
-
-
-/*if(listaNombres.includes()){
-    return agregarAmigo();
-}else{
-    listaNombres.push();
-    return agregarAmigo;
-}*/
-
 
 
 
