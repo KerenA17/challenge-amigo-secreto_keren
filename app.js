@@ -1,31 +1,27 @@
 // El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. Aquí deberás desarrollar la lógica para resolver el problema.
 
-let listaNombres=[];
-function nombresIngresados(){
-    let nombre = prompt('Ingresa un nombre: ')
-};
-
-function asignarTexto(nombres, texto){
-    const nombres = document.querySelector(".nombre");
-    nombresHTMl.innerHTML = texto;
+function agregarAmigo(){
+    let listaNombres=[]
+    let nombre = document.getElementById('nombreAmigo').value;
+    console.log(nombre)
     return;
+
 }
 
-
-
-
-
-
-
-
-
-
-/*if(listaNombres.includes(nombre)){
-    return nombresIngresados();
-}else{
-    listaNombres.push(nombre);
-    return nombresIngresados;
-}
-
+agregarAmigo();
 console.log(listaNombres);
-console.log(nombresIngresados);*/
+console.log(agregarAmigo);
+
+
+
+/*if(listaNombres.includes()){
+    return agregarAmigo();
+}else{
+    listaNombres.push();
+    return agregarAmigo;
+}*/
+
+
+
+
+
