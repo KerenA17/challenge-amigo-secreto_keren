@@ -11,7 +11,6 @@ function agregarAmigo(){
         }
 
     listaNombres.push(nombre); //Añadir los nombres en el array
-    //console.log(listaNombres); //visualizar los nombre-solo es de prueba 
     limpiarCampo();
     verLista();
     
@@ -48,9 +47,8 @@ function sorteo(){
     console.log(indiceAleatorio);
 
     //acceder al nombre sorteado de acuerdo al indice
-    for(var k = 0;k<listaNombres.length;k++){
-        listaNombres[k]==indiceAleatorio
-        let finalResul = document.getElementById('resultado')
-        finalResul.innerHTML=listaNombres[k] //se muestra el nombre
-    }
+    let nombreSorteado = listaNombres[indiceAleatorio]
+    let finalResul = document.getElementById('resultado') 
+    finalResul.innerHTML=nombreSorteado//se muestra el nombre
+    
 }
