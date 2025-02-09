@@ -1,6 +1,7 @@
 // El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. Aquí deberás desarrollar la lógica para resolver el problema.
 let listaNombres=[];//array donde se almacenan los nombres que ingresa el usuario
 let disponibles=1;
+let ver;
 function agregarAmigo(){
     let nombre = document.getElementById('nombreAmigo').value.trim(); //captura de los nombres
 
@@ -12,8 +13,7 @@ function agregarAmigo(){
 
     listaNombres.push(nombre); //Añadir los nombres en el array
     limpiarCampo();
-    verLista();
-    
+    verLista();   
 }
 
 //funcion para que el campo se limpie despues de escribir un nombre 
@@ -21,10 +21,9 @@ function limpiarCampo(){
    document.querySelector('#nombreAmigo').value="";
 }
 
-
 function verLista(){
-    let ver = document.getElementById('listaAmigos') //seleccionar donde se mostraran los nombres
-    ver.innerHTML="" //limpiar lista para evitar dobles
+    ver = document.getElementById('listaAmigos'); //seleccionar donde se mostraran los nombres
+    ver.innerHTML=""; //limpiar lista para evitar dobles
 
     for (var k= 0; k<listaNombres.length; k++){ //recorrer el array
        const li = document.createElement("li");  //crear un <li>
@@ -34,9 +33,10 @@ function verLista(){
 }
 
 function sorteo(){
+    ver.innerHTML="";
     //verificar que haya amigos disponibles para el sorteo
     if(listaNombres.length===0){
-        console.log("NO hay elementos en la lista")
+        console.log("NO hay elementos en la lista");
         return;
     }else{
         console.log(`${listaNombres.length} ${listaNombres.length==1?'amigo disponible':'amigos disponibles'} `);
@@ -47,8 +47,8 @@ function sorteo(){
     console.log(indiceAleatorio);
 
     //acceder al nombre sorteado de acuerdo al indice
-    let nombreSorteado = listaNombres[indiceAleatorio]
-    let finalResul = document.getElementById('resultado') 
-    finalResul.innerHTML=nombreSorteado//se muestra el nombre
+    let nombreSorteado = listaNombres[indiceAleatorio];
+    let finalResul = document.getElementById('resultado');
+    finalResul.innerHTML=(`El amigo secreto sorteado es: ${nombreSorteado}`);//se muestra el nombre
     
 }
