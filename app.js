@@ -52,3 +52,10 @@ function sorteo(){
     finalResul.innerHTML=(`El amigo secreto sorteado es: ${nombreSorteado}`);//se muestra el nombre
     
 }
+
+function reiniciar(){
+    listaNombres = []; // Vaciar la lista
+    document.getElementById('listaAmigos').innerHTML = ""; // Limpiar la lista en HTML
+    document.getElementById('resultado').innerHTML = ""; // Limpiar el resultado
+    document.querySelector('#nombreAmigo').value = ""; // Limpiar el input
+}
