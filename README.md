@@ -4,6 +4,7 @@
 
 ## ¿Cómo Funciona?
 1. En el cuadro de entrada se muestra la breve instrucción. Escriba un nombre el campo y haga clic en el botón "Añadir" para incluirlo en el sorteo.
+   ![Incluya nombres al sorteo](https://github.com/user-attachments/assets/2daabc6d-f07b-432c-9e38-93f98bb11170)
 2. El Campo de entrada se vaciará automáticamente para permitir agregar más nombres. Este proceso se puede repetir las veces que usted desee.
 3. Una vez agregados todos los nombres, haga clic en el botón "Sortear amigo" para iniciar el sorteo.
 4. El sistema seleccionará aleatoriamente un nombre y lo mostrará en un color verde llamativo.
