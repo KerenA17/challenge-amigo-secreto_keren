@@ -24,6 +24,11 @@
 - **JavaScript** para la lógica del sorteo y validaciones.
 - **CSS** para el diseño y estilos.
 
+## Visualización en línea  
+Este proyecto se puede visualizar directamente en la siguiente página:  
+[Challenge Amigo Secreto](https://kerena17.github.io/challenge-amigo-secreto_keren/)
+
+
 ## Autores
 - Grupo Alura.
 - Keren Denisse Aguillón López.
