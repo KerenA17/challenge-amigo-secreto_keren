@@ -3,11 +3,14 @@
 <p align="justify">El proyecto es un sencillo juego de sorteo que tiene la función de permitir al usuario agregar la cantidad de nombres que desee. Después de añadir los nombres el sistema realiza un sorteo completamente aleatorio, que seleccionar un nombre para elegirlo como “ganador”.</p>
 
 ## ¿Cómo Funciona?
-1. En el cuadro de entrada se muestra la breve instrucción. Escriba un nombre el campo y haga clic en el botón "Añadir" para incluirlo en el sorteo.
-   ![Incluya nombres al sorteo](https://github.com/user-attachments/assets/2daabc6d-f07b-432c-9e38-93f98bb11170)
+   1. En el cuadro de entrada se muestra la breve instrucción. Escriba un nombre el campo y haga clic en el botón "Añadir" para incluirlo en el sorteo.
+![Incluya nombres al sorteo](https://github.com/user-attachments/assets/2daabc6d-f07b-432c-9e38-93f98bb11170)
 2. El Campo de entrada se vaciará automáticamente para permitir agregar más nombres. Este proceso se puede repetir las veces que usted desee.
+![Incluya nombres al sorteo (1)](https://github.com/user-attachments/assets/c7c2bef6-739b-4f01-a719-b56d545b97fd)
 3. Una vez agregados todos los nombres, haga clic en el botón "Sortear amigo" para iniciar el sorteo.
+![Incluya nombres al sorteo (2)](https://github.com/user-attachments/assets/5bd54cbd-b914-4391-92e5-8bbb83fd1a1e)
 4. El sistema seleccionará aleatoriamente un nombre y lo mostrará en un color verde llamativo.
+   
 5. Al finalizar el sorteo presione el boton gris "Reinicio", para crear un nuevo sorteo con otros nombres.
 
 ## Opciones adicionales:
